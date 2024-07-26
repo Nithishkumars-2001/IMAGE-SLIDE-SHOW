@@ -14,7 +14,7 @@ body{
     margin-left: 270px;
     box-shadow: 4px 4px 8px #000;
     border-radius: 15px;
-    background-image: url(1.jpg);
+    background-image: url(1.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body{
     accent-color: red;
     margin: 30px;
     cursor: pointer;
-    font-weight: bold;
+    text-shadow: 2px 2px 4px black;
 }
 
 .change-items{
@@ -33,7 +33,6 @@ body{
     justify-content: column;
     padding-top: 540px;
     padding-left: 450px;
-    text-shadow: 2px 2px 4px black;
 }
 
 @media screen and (max-width: 700px){
