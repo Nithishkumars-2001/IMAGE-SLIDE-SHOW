@@ -38,9 +38,9 @@ body{
 @media screen and (max-width: 700px){
     .container{
         min-height: 35vh;
-        width: 350px;
+        width: 300px;
         margin-top: 80px;
-        margin-left: 20px;
+        margin-left: 40px;
     }
 
     .change-item{
@@ -53,7 +53,7 @@ body{
     .change-items{
         display: flex;
         justify-content: column;
-        padding-top: 280px;
+        padding-top: 300px;
         padding-left: 90px;
         text-shadow: 2px 2px 4px black;
     }
