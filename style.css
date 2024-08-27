@@ -3,59 +3,45 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: rgb(212, 142, 142);
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
 .container{
-    min-height: 85vh;
     width: 60%;
+    height: 500px;
     border: none;
-    margin-top: 30px;
-    margin-left: 270px;
+    margin: 50px 0 0 270px;
     box-shadow: 4px 4px 8px #000;
     border-radius: 15px;
     background-image: url(1.webp);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: fixed;
 }
 
 .change-item{
     accent-color: red;
-    margin: 30px;
     cursor: pointer;
-    text-shadow: 2px 2px 4px black;
 }
 
 .change-items{
     display: flex;
     justify-content: column;
-    padding-top: 540px;
-    padding-left: 450px;
+    gap: 50px;
+    padding: 30px 0 0 520px;
+    
 }
 
 @media screen and (max-width: 700px){
     .container{
-        min-height: 35vh;
-        width: 300px;
-        margin-top: 80px;
-        margin-left: 40px;
+        width: 350px;
+        height: 200px;
+        margin: 150px 0 0 20px;
     }
 
-    .change-item{
-        accent-color: red;
-        margin: 10px;
-        cursor: pointer;
-        font-weight: bold;
+    .change-items{
+        gap: 20px;
+        padding: 30px 0 0 80px;
     }
     
-    .change-items{
-        display: flex;
-        justify-content: column;
-        padding-top: 300px;
-        padding-left: 90px;
-        text-shadow: 2px 2px 4px black;
-    }
     
 }
